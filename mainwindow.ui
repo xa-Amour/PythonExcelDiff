@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>802</width>
+                <height>600</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>MainWindow</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <widget class="QWidget" name="horizontalLayoutWidget_4">
+                <property name="geometry">
+                    <rect>
+                        <x>40</x>
+                        <y>0</y>
+                        <width>721</width>
+                        <height>71</height>
+                    </rect>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_4">
+                    <item>
+                        <widget class="QPushButton" name="pushButton">
+                            <property name="font">
+                                <font>
+                                    <family>微软雅黑</family>
+                                    <weight>50</weight>
+                                    <bold>false</bold>
+                                </font>
+                            </property>
+                            <property name="text">
+                                <string>原始文件</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QLineEdit" name="lineEdit"/>
+                    </item>
+                    <item>
+                        <widget class="QPushButton" name="pushButton_2">
+                            <property name="font">
+                                <font>
+                                    <family>微软雅黑</family>
+                                    <weight>50</weight>
+                                    <bold>false</bold>
+                                </font>
+                            </property>
+                            <property name="text">
+                                <string>对比文件</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QLineEdit" name="lineEdit_2"/>
+                    </item>
+                    <item>
+                        <widget class="QComboBox" name="comboBox"/>
+                    </item>
+                </layout>
+            </widget>
+            <widget class="QWidget" name="horizontalLayoutWidget">
+                <property name="geometry">
+                    <rect>
+                        <x>40</x>
+                        <y>70</y>
+                        <width>721</width>
+                        <height>261</height>
+                    </rect>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout">
+                    <item>
+                        <widget class="QTableWidget" name="tableWidget"/>
+                    </item>
+                    <item>
+                        <widget class="QTableWidget" name="tableWidget_2"/>
+                    </item>
+                </layout>
+            </widget>
+            <widget class="QPushButton" name="pushButton_3">
+                <property name="geometry">
+                    <rect>
+                        <x>360</x>
+                        <y>340</y>
+                        <width>80</width>
+                        <height>30</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>微软雅黑</family>
+                        <pointsize>10</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>点击比较</string>
+                </property>
+            </widget>
+            <widget class="QWidget" name="horizontalLayoutWidget_2">
+                <property name="geometry">
+                    <rect>
+                        <x>40</x>
+                        <y>340</y>
+                        <width>301</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_3">
+                    <item>
+                        <widget class="QLabel" name="label_4">
+                            <property name="styleSheet">
+                                <string notr="true">font: 75 12pt &quot;微软雅黑&quot;;
+                                    background-color: rgb(255, 37, 95);
+                                </string>
+                            </property>
+                            <property name="text">
+                                <string>删除</string>
+                            </property>
+                            <property name="alignment">
+                                <set>Qt::AlignCenter</set>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QLabel" name="label_3">
+                            <property name="styleSheet">
+                                <string notr="true">font: 75 12pt &quot;微软雅黑&quot;;
+                                    background-color: rgb(67, 101, 255);
+                                </string>
+                            </property>
+                            <property name="text">
+                                <string>增加</string>
+                            </property>
+                            <property name="alignment">
+                                <set>Qt::AlignCenter</set>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </widget>
+            <widget class="QWidget" name="horizontalLayoutWidget_3">
+                <property name="geometry">
+                    <rect>
+                        <x>460</x>
+                        <y>340</y>
+                        <width>301</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_5">
+                    <item>
+                        <widget class="QLabel" name="label_5">
+                            <property name="styleSheet">
+                                <string notr="true">font: 75 12pt &quot;微软雅黑&quot;;
+
+                                    background-color: rgb(255, 235, 83);
+                                </string>
+                            </property>
+                            <property name="text">
+                                <string>修改</string>
+                            </property>
+                            <property name="alignment">
+                                <set>Qt::AlignCenter</set>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QLabel" name="label_6">
+                            <property name="styleSheet">
+                                <string notr="true">font: 75 12pt &quot;微软雅黑&quot;;
+                                    background-color: rgb(154, 145, 106);
+                                </string>
+                            </property>
+                            <property name="text">
+                                <string>选定</string>
+                            </property>
+                            <property name="alignment">
+                                <set>Qt::AlignCenter</set>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </widget>
+            <widget class="QTabWidget" name="tabWidget">
+                <property name="geometry">
+                    <rect>
+                        <x>40</x>
+                        <y>390</y>
+                        <width>721</width>
+                        <height>161</height>
+                    </rect>
+                </property>
+                <property name="currentIndex">
+                    <number>0</number>
+                </property>
+                <widget class="QWidget" name="tab_4">
+                    <attribute name="title">
+                        <string>总览</string>
+                    </attribute>
+                    <widget class="QWidget" name="gridLayoutWidget">
+                        <property name="geometry">
+                            <rect>
+                                <x>10</x>
+                                <y>10</y>
+                                <width>641</width>
+                                <height>121</height>
+                            </rect>
+                        </property>
+                        <layout class="QGridLayout" name="gridLayout">
+                            <item row="1" column="0">
+                                <widget class="QLabel" name="global_label">
+                                    <property name="text">
+                                        <string>总览1</string>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item row="2" column="0">
+                                <widget class="QLabel" name="global_label_2">
+                                    <property name="text">
+                                        <string>总览2</string>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item row="1" column="1">
+                                <widget class="QLabel" name="global_label_3">
+                                    <property name="text">
+                                        <string>总览3</string>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item row="2" column="1">
+                                <widget class="QLabel" name="global_label_4">
+                                    <property name="text">
+                                        <string>总览4</string>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </widget>
+                <widget class="QWidget" name="tab">
+                    <attribute name="title">
+                        <string>列增删</string>
+                    </attribute>
+                    <widget class="QTableWidget" name="tableWidget_4">
+                        <property name="geometry">
+                            <rect>
+                                <x>0</x>
+                                <y>-20</y>
+                                <width>731</width>
+                                <height>161</height>
+                            </rect>
+                        </property>
+                    </widget>
+                </widget>
+                <widget class="QWidget" name="tab_2">
+                    <attribute name="title">
+                        <string>行增删</string>
+                    </attribute>
+                    <widget class="QTableWidget" name="tableWidget_5">
+                        <property name="geometry">
+                            <rect>
+                                <x>0</x>
+                                <y>-20</y>
+                                <width>731</width>
+                                <height>161</height>
+                            </rect>
+                        </property>
+                    </widget>
+                </widget>
+                <widget class="QWidget" name="tab_3">
+                    <attribute name="title">
+                        <string>单元格改动</string>
+                    </attribute>
+                    <widget class="QTableWidget" name="tableWidget_6">
+                        <property name="geometry">
+                            <rect>
+                                <x>0</x>
+                                <y>-20</y>
+                                <width>731</width>
+                                <height>161</height>
+                            </rect>
+                        </property>
+                    </widget>
+                </widget>
+            </widget>
+        </widget>
+        <widget class="QMenuBar" name="menubar">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>802</width>
+                    <height>23</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QStatusBar" name="statusbar"/>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
