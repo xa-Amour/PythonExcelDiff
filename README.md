@@ -9,3 +9,6 @@ An app can diff excel by python created in 2017.
 * Python3
 * PyQt5
 * LCS
+
+## Effect Pic
+![Diff截图](https://github.com/xa-Amour/PythonExcelDiff/assets/28250684/d19f224a-8a76-463a-a4f2-b66b100d14cf)
